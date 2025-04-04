@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上海天堂伊芙舞台 | 戏曲艺术新维度</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+
+        :root {
+            --dark-gray: #1D1D1F;
+            --gold: #A89B8C;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.8;
+            color: var(--dark-gray);
+            background: #fefefe;
+        }
+
+        .nav {
+            background: var(--dark-gray);
+            padding: 1.2rem 10%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 3rem;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+
+        .hero {
+            padding: 8rem 10% 4rem;
+            background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('stage-bg.jpg');
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+
+        .section-title {
+            font-family: 'Noto Serif SC', serif;
+            font-weight: 500;
+            font-size: 2.8rem;
+            border-bottom: 3px solid var(--gold);
+            padding-bottom: 1rem;
+            margin: 4rem 10% 2rem;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            padding: 0 10%;
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+
+        .highlight {
+            color: var(--gold);
+            font-weight: 500;
+            margin: 1.2rem 0;
+        }
+
+        blockquote {
+            font-family: 
+                "Kaiti TC",          /* macOS 标楷体 */
+                "STKaiti",           /* macOS 华文楷体 */
+                "ZCOOL XiaoWei",     /* 免费商用楷体 */
+                "楷体", 
+                serif;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            padding: 1.5rem;
+            background: #f8f8f8;
+            border-radius: 4px;
+        }
+        
+
+        .footer {
+            background: var(--dark-gray);
+            color: white;
+            padding: 4rem 10%;
+            margin-top: 6rem;
+        }
+
+        /* 响应式优化 */
+        @media (max-width: 768px) {
+            .nav { padding: 1rem 5%; }
+            .hero { padding: 6rem 5% 3rem; }
+            .section-title { margin: 3rem 5%; font-size: 2.2rem; }
+            .card-grid { padding: 0 5%; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="#home">天堂伊芙</a>
+        <a href="#performances">剧目精选</a>
+        <a href="#space">空间艺术</a>
+        <a href="#academic">学术探索</a>
+        <a href="#tickets">购票</a>
+    </nav>
+
+    <section class="hero">
+        <h1 style="font-size:3.5rem;margin-bottom:1.5rem;">上海天堂伊芙舞台</h1>
+        <p style="font-size:1.2rem;letter-spacing:1px;">以纯粹美学，重塑传统与当代的对话</p>
+    </section>
+
+    <!-- 剧目精选 -->
+    <h2 class="section-title">剧目精选 · 经典焕新</h2>
+    <div class="card-grid">
+        <div class="card">
+            <h3>“她们没有自己的名字”女性主义昆曲折子戏专场（上）</h3>
+            <p class="highlight">2025.3.8 13:30</p>
+            <p>主演：马传菁、周传瑛、沈传芷、王传蕖、张继青、顾传玠等</p>
+            <p>剧目：《白罗衫·井遇》《白兔记·养子》《双珠记·卖子》《慈悲愿·认子》</p>
+        </div>
+        
+        <div class="card">
+            <h3>“她们没有自己的名字”女性主义折子戏专场（下）</h3>
+            <p class="highlight">2025.3.8 19:15</p>
+            <p>主演：方传芸、汪传钤、姚传芗、王传淞、刘传蘅、郑传鉴、马传菁、倪传钺等</p>
+            <p>剧目：《杨家将·挡马》《蝴蝶梦·说亲》《蝴蝶梦·回话》《吟风阁·罢宴》</p>
+        </div>
+        <div class="card">
+            <h3>愚人节杂剧专场</h3>
+            <p class="highlight">2025.4.1 19.15</p>
+            <p>剧目：《马陵道·孙诈》《金貂记·北诈疯》《西游记·借扇》《单刀会·刀会》</p>
+        </div>
+    </div>
+
+    <!-- 空间艺术 -->
+    <h2 class="section-title">空间艺术 · 沉浸体验</h2>
+    <div class="card" style="margin:0 10% 4rem">
+        <div style="padding:0 10%">
+            <h3>新空间京剧《虎穴龙潭》</h3>
+            <p class="highlight">2025.3 幽冥剧场</p>
+            <p>方先生特邀主演｜5D音效与渐变蟒袍设计</p>
+            <p>阴山数字化意象｜绸缎装置诠释阴阳边界</p>
+        </div>
+    </div>
+
+    <!-- 学术探索 -->
+    <h2 class="section-title">文化跨界 · 学术探索</h2>
+    <div class="card" style="margin:0 10% 4rem">
+        <div style="padding:0 10%">
+        <h3>《地狱文艺评论》创刊征稿</h3>
+        <p class="highlight">研究方向：</p>
+        · 阴曹地府题材批判分析<br>
+        · 戏曲符号的当代重构<br>
+        · 经典剧本讽刺性改编
+    </div></div>
+
+    <!-- 限定企划 -->
+    <h2 class="section-title">限定企划 · 节气美学</h2>
+    <div class="card-grid" style="padding:0 10%">
+        <div class="card">
+            <h3>幽谷凝香系列</h3>
+            <p class="highlight">霹雳布袋咖啡特供茶饮</p>
+            <p>折桂令｜信阳毛尖冷萃+桂花蜜+分子气泡技术<br>
+            扶风夜雨 | 蒙顶甘露+枸杞+扬子江中水<br>
+            翠云吟 | 阳羡茶+梨花蜜酿+多冰<br>
+            剑池春晓 | 青柠香精+虎丘新茶+冷萃工艺<br>
+            墓雪琉璃｜碧螺春+梅花雪水+芝士奶盖<br>
+            双人套装含手绘戏曲杯套</p>
+        </div>
+        <div class="card">
+            <h3>清明限定系列</h3>
+            <p class="highlight">霹雳布袋咖啡特供甜点</p>
+            <p>香夭青团——生死一念，入口成殇<br>
+            桃花芝语小蛋糕——桃花扇底，蜜意绵长
+            </p>
+        </div>
+    </div>
+
+    <!-- 特别演出 -->
+    <h2 class="section-title">清明慰魂 · 特别报道</h2>
+    <div class="card" style="margin:0 10%">
+        <p class="highlight">2025.4.4 13:30 盛大开演</p>
+        <p>天庭昆剧团青年演员｜平均年龄400岁</p>
+        <blockquote>
+            「『沉江』折里那句『看江山换主』一出口，眼泪唰地下来了」<br>
+            —— 老戏迷张先生
+        </blockquote>
+        <div class="highlight">全本《桃花扇》加演预告：8.15-8.17</div>
+    </div>
+
+    <!-- 声明与联络 -->
+    <footer class="footer">
+        <p style="border-bottom:1px solid rgba(255,255,255,0.1);padding-bottom:2rem">
+            严正声明：本舞台为唯一官方授权主体，侵权必究<br>
+            维权专线：4000-000-000
+        </p>
+        <p style="margin-top:2rem">
+            官方微博：<a href="https://weibo.com/u/7987399316" style="color:var(--gold);text-decoration:none">上海天堂伊芙舞台</a><br>
+            地址：三十三重天·南天门外凌霄大道甲叁号<br>
+            © 2025 上海天堂伊芙舞台 版权所有
+        </p>
+    </footer>
+</body>
+</html>
